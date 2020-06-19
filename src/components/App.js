@@ -14,12 +14,6 @@ export default class App extends React.Component {
     }
   }
 
-  savePets = (pets) => {
-    this.setState({
-      ...this.state, 
-      pets: pets
-    })
-  }
 
   onFindPetsClick = () => {
     let apiURL = '/api/pets'
