@@ -14,7 +14,6 @@ export default class App extends React.Component {
     }
   }
 
-
   onFindPetsClick = () => {
     let apiURL = '/api/pets'
     if (this.state.filters.type !== "all") {
